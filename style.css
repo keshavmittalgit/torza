@@ -11,6 +11,7 @@
     width: 100%;
     height: 20px;
     padding: 60px;
+    position: relative;
     
 } 
 #s-bar {
@@ -27,4 +28,9 @@
 
 body {
     height: 100%;
+}
+.sendIcon {
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
